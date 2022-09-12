@@ -15,7 +15,7 @@ body {
   font-weight: 900;
   display: flex;
   justify-content: flex-start;
-  padding: 0 16px;
+  padding: 16px;
   align-items: center;
 }
 
@@ -23,17 +23,27 @@ body {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
+  flex: none;
+  padding: 16px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 5px;
+  margin: 10px;
+  width: 160px;
+  height: 240px;
 }
 
 .main {
@@ -43,10 +53,17 @@ body {
 .cards {
   display: flex;
   flex-wrap: wrap;
+  padding: 32px;
 }
 
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+a {
+  font-size: 24px;
+  color: #ffffff;
+  text-decoration: none;
 }
